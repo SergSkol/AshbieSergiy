@@ -4,10 +4,16 @@
       width: 100%;
     }
   }
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
   #welcome-section {
       background-color: green;
       height: 100vh;
   }
   #navbar{
       position: fixed;
+      top: 0px;
   }
