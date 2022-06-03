@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .project-tile {
+      width: 100%;
+    }
+  }
+  #welcome-section {
+      background-color: green;
+      height: 100vh;
+  }
+  #navbar{
+      position: fixed;
+  }
