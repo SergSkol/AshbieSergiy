@@ -12,8 +12,8 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
         sum = oranges[i] + b;
         if(sum >= s && sum <= t){ numberOfOranges++;}
     }
-    console.log(numberOfApples);
-    console.log(numberOfOranges);
+    console.log(numberOfApples); // There was not obvious in the task how to print it out
+    console.log(numberOfOranges); // We have tried also process.stdout.write()
 
     //return (numberOfApples + \n +numberOfOranges);
 
