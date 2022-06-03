@@ -26,10 +26,13 @@ function readLine() {
 
 // Complete the catAndMouse function below.
 function catAndMouse(x, y, z) {
+    // This is the distance between Cat A and Mouse C
     var xz = Math.abs(x - z);
+    // This is the distance between Cat B and Mouse C
     var yz = Math.abs(y - z);
     if(xz<yz){return "Cat A"}
     else if(xz>yz){return "Cat B"}
+    // Equal distance from the Mouse to both Cats
     else {return "Mouse C"}
 }
 
